@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portifolio/static/media/funil.1dbe5aec.jpg"
   },
   {
-    "revision": "0ed88be2802ce073b07a",
-    "url": "/portifolio/static/css/main.1b0a35b9.chunk.css"
+    "revision": "822ba71b0ae14272b4a0",
+    "url": "/portifolio/static/css/main.55239543.chunk.css"
   },
   {
     "revision": "91a74ff0904045e04265",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/portifolio/static/media/mfmti.dff10bb6.jpg"
   },
   {
-    "revision": "0ed88be2802ce073b07a",
+    "revision": "822ba71b0ae14272b4a0",
     "url": "/portifolio/static/js/main.028dc4ad.chunk.js"
   },
   {
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/portifolio/static/media/senai.b5449914.jpg"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/portifolio/static/media/slick.b7c9e1e4.woff"
-  },
-  {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/portifolio/static/media/slick.ced611da.eot"
+  },
+  {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/portifolio/static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/portifolio/static/css/2.e66f2a8c.chunk.css"
   },
   {
-    "revision": "68d42b8133a886c42af80db5db545952",
+    "revision": "97a8829543a794128be0110ded153ba4",
     "url": "/portifolio/index.html"
   }
 ];
