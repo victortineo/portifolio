@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portifolio/static/media/funil.1dbe5aec.jpg"
   },
   {
-    "revision": "871b6fbbe255f9ef62bb",
+    "revision": "0ed88be2802ce073b07a",
     "url": "/portifolio/static/css/main.1b0a35b9.chunk.css"
   },
   {
@@ -12,12 +12,12 @@ self.__precacheManifest = [
     "url": "/portifolio/static/js/runtime~main.e9cc7322.js"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/portifolio/static/media/slick.b7c9e1e4.woff"
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/portifolio/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "2a0f43b082db7510bed7",
-    "url": "/portifolio/static/js/2.573070e1.chunk.js"
+    "revision": "ce05772f8887a223256f",
+    "url": "/portifolio/static/js/2.381369d5.chunk.js"
   },
   {
     "revision": "1cf34a907c8fbf78d8c97d80469f3371",
@@ -28,31 +28,31 @@ self.__precacheManifest = [
     "url": "/portifolio/static/media/mfmti.dff10bb6.jpg"
   },
   {
-    "revision": "871b6fbbe255f9ef62bb",
-    "url": "/portifolio/static/js/main.2704dae8.chunk.js"
+    "revision": "0ed88be2802ce073b07a",
+    "url": "/portifolio/static/js/main.028dc4ad.chunk.js"
   },
   {
     "revision": "b544991473748aba8b9e0aaf7510a2c9",
     "url": "/portifolio/static/media/senai.b5449914.jpg"
   },
   {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/portifolio/static/media/slick.ced611da.eot"
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/portifolio/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/portifolio/static/media/slick.f97e3bbf.svg"
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/portifolio/static/media/slick.ced611da.eot"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
     "url": "/portifolio/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "2a0f43b082db7510bed7",
+    "revision": "ce05772f8887a223256f",
     "url": "/portifolio/static/css/2.e66f2a8c.chunk.css"
   },
   {
-    "revision": "a7b33d9197475e5bce248c2ce292d90f",
+    "revision": "68d42b8133a886c42af80db5db545952",
     "url": "/portifolio/index.html"
   }
 ];
