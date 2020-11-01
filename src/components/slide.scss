@@ -1,5 +1,5 @@
 .slide{
-    padding: 0 10px;
+    padding: 10px;
     box-sizing: border-box;
     overflow: hidden;
     &__title{
@@ -11,37 +11,12 @@
         max-width: 100%;
         border-radius: 4px;
     }
-    &__tablet{
-        position: relative;
-        width: 600px;
-        height: 350px;
-        background: #222; /* Old browsers */
-        background: -moz-linear-gradient(left, #222 1%, #0e0e0e 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(left, #222 1%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to right, #222 1%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 */
-        padding: 18px 40px 18px 55px;
-        border-radius: 25px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-        &:before{
-            content: '';
-            position: absolute;
-            width: 25px;
-            height: 25px;
-            border: 1px solid #fff;
-            left: 15px;
-            border-radius: 50%;
-        }
-    }
     &__link{
-        margin-top: 20px;
         display: inline-block;
         background-color: #555;
         padding: 7px;
         border-radius: 5px;
         color: #fff;
+        margin: 0 10px;
     }
 }

@@ -38,39 +38,47 @@ class Porque extends Component {
 				image: senai,
 				link: 'https://www.mundosenai.com.br/'
 			}
-		]
+		],
+		activeLink: ''
 	}
+
+	handleSlickChange = ( old, newIndex ) => 
+		this.setState(prevState => ({
+			activeLink: prevState.items[newIndex].link
+		}));
+
 	render() {
-		var settings = {
+		const settings = {
 			dots: true,
 			infinite: true,
 			speed: 500,
 			slidesToShow: 1,
 			slidesToScroll: 1
-		  };
+		};
+		const { title, text, items, activeLink } = this.state;
 		return (
 			<div className="porque" id="porque">
 				<div className="porque__intro">
 					<ContentText
-						title={this.state.title}
-						hasSeparator={true}
+						title={title}
+						hasSeparator
 						separatorIcon={estrela}
-						text={this.state.text}
+						text={text}
 					/>
 				</div>
 				<div className="porque__info">
-					<Slider {...settings}>
-						{this.state.items.map((item, i) => 
-							<div className="slide" key={`item__${i}`}>
+					<Slider {...settings} beforeChange={this.handleSlickChange}>
+						{items.map(item => 
+							<div className="slide" key={`item__${item.title}`}>
 								<h3 className="slide__title">{item.title}</h3>
 								<p className="slide__desc">{item.desc}</p>
 								<div className="slide__tablet">
 									<img src={item.image} alt={`Print do projeto ${item.title}`} className="slide__image"/>
 								</div>
-								<a href={item.link} className="slide__link" target="_blank" rel="noopener noreferrer">Confira</a>
 							</div>
 						)}
 					</Slider>
+					<a href={activeLink} className="slide__link" target="_blank" rel="noopener noreferrer">Confira</a>
 				</div>
 			</div>
 		)

@@ -28,7 +28,6 @@ export default class BacktoTop extends Component {
         return (
             <React.Fragment>
                 <button className={`backToTheTop ${this.state.active === true ? '' : 'backToTheTop--leave'}`} title="Go to top"><IoMdArrowUp /></button>
-
             </React.Fragment>
         )
     }

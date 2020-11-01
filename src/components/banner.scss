@@ -32,22 +32,22 @@
 		position: relative;
 		height: 100%;
 	}
-	&__phone{
+	&__icon{
 		position: absolute;
-		height: 65px;
-		width: 65px;
-		right: 10%;
-		top: 10%;
 		filter: brightness(0) invert(1);
-
-	}
-	&__web{
-		position: absolute;
-		height: 65px;
-		width: 65px;
-		left: 10%;
-		bottom: 10%;
-		filter: brightness(0) invert(1);
+		transition: ease .5s;
+		&--phone{
+			height: 120px;
+			width: 120px;
+			right: 10%;
+			top: 10%;
+		}
+		&--web{
+			height: 120px;
+			width: 120px;
+			left: 10%;
+			bottom: 10%;
+		}
 	}
 	&__logo{
 		position: absolute;
